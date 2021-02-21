@@ -1,0 +1,64 @@
+@media only screen and (max-width: 420px) {
+    .menu .link {
+        display: none;
+    }
+
+    header {
+        top: 28vh;
+    }
+
+    .introduce {
+        height: 40vh;
+    }
+
+    .container-2 .img {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .title-2 {
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    .more, .item-info {
+        flex-wrap: nowrap;
+    }
+
+    .more a {
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .top-img {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+    
+    .sub-container1, .sub-container3
+    {
+        width: 100%;
+    }
+
+    .info .title-2 {
+        text-align: left;
+        line-height: 2rem;
+    }
+
+    .download-mobile {
+        justify-content: center;
+    }
+
+    .btn-acc {
+        margin-top: 3rem;
+    }
+
+    .col-link {
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .col-link .title-2 {
+        text-align: left;
+    }
+}

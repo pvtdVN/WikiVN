@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    background-color: #f9fafc;
+}
+
+.rm-a *{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.fas {
+    color: #005759;
+    font-size: 4rem;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+/* Start TopPage */
+.container-main {
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    z-index: 1;
+}
+
+.menu {
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin: 0 2.2rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.btn {
+    width: 15rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 1rem;
+}
+
+.link:hover {
+    border-bottom: 2px solid white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #005759;
+}
+
+.logo img{
+    width: 14vh;
+    height: 13vh;
+    margin: 0.5rem 1rem;
+}
+
+.introduce {
+    height: 23vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.quote, .author {
+    font-size: 1.4rem;
+}
+
+.title {
+    font-size: 3.3rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #005759;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.fa-chevron-down {
+    margin-top: 3vh;
+}
+/* End TopPage */
+
+/* Start Multichoice */
+.language {
+    height: 6rem;
+    width: 100%;
+    background-color: #005759;
+}
+
+.mul-items {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.item {
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.flag {
+    width: 38px;
+    height: 28px;
+    background-image: url(../img/flag.svg);
+    background-repeat: no-repeat;
+}
+
+.flag1 {
+    background-size: 90%;
+    background-position: 3px 0px;
+}
+
+.flag2 {
+    background-size: 90%;
+    background-position: 3px -27px;
+}
+
+.name {
+    color: cornsilk;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-left: 0.7rem;
+}
+/* End Multichoice */
+
+/* Start article */
+article {
+    width: 80%;
+    margin: auto;
+    color: #7b7977;
+    font-weight: 500;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-2 .img {
+    width: 20%;
+    height: 14rem;
+}
+
+.right-container {
+    width: 80%;
+    padding: 0 3rem;
+}
+
+.title-2 {
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.des {
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    margin-top: 1.6rem;
+}
+
+.container-2 {
+    margin: 4rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 3px solid #e5e5e5;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.fa-caret-right {
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+
+.more {
+    flex-direction: row;
+    align-items: center;
+}
+
+.more a{
+    color: #005759;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 2rem 0rem;
+}
+
+/* Container-3 */
+.container-3 {
+    padding-bottom: 3rem;
+    border-bottom: 3px solid #e5e5e5;
+}
+
+.container-3 .title-2 {
+    text-align: center;
+}
+
+.sub-container1, .sub-container3
+{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-container-3 {
+    justify-content: space-around ;
+    margin-top: 3.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+.info .title-2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.info .des{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2rem;
+} 
+
+.icon {
+    width: 35px;
+    height: 34px;
+    background-image: url(../img/icon-sprite8.svg);
+    background-repeat: no-repeat;
+}
+
+.icon2 {
+    background-size: 4930%;
+    background-position: -378px -212px;
+}
+
+.icon3 {
+    background-size: 4770%;
+    background-position: -23px -117px;
+}
+
+.icon4 {
+    height: 48px;
+    background-size: 6550%;
+    background-position: -1639px -157px;
+}
+
+.icon5 {
+    height: 40px;
+    background-size: 6000%;
+    background-position: -470px -148px;
+}
+
+.btn2 {
+    margin: 2rem 2rem 0 0;
+    border: 2px solid #e5e5e5;
+    border-bottom-width: 5px;
+    align-items: center;
+}
+
+.fa-app-store, .fa-google-play {
+    font-size: 3rem;
+    color: #4b4b4b;
+}
+
+.btn2 .info p {
+    font-size: 1.4rem;
+    color: #4b4b4b;
+}
+
+.btn2 .info .highlight {
+    font-size: 1.6rem;
+    color: #4b4b4b;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #005759;
+    position: relative;
+}
+
+.start {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 18rem;
+}
+
+.start .title {
+    color: white;
+    margin-bottom: 0;
+}
+
+.btn-acc {
+    padding: 1.2rem 0;
+    background-color: #58cc02;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 5px solid #58a700;
+}
+
+.container-link {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.col-link .title-2 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+}
+
+.col-link {
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.col-link li {
+    margin: 1rem 0;
+}
+
+.link2 {
+    color: #91a9c7;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.link2:hover {
+    border-bottom: 1px solid #91a9c7;
+}
+
+/* Dot for BG */
+.dot {
+  background-color: #a7bad3;
+  position: absolute;
+  border-radius: 50%;
+}
